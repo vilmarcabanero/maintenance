@@ -18,11 +18,26 @@ const Container = styled.div`
 
 const Title = styled.h1`
 	color: white;
-	font-size: 3rem;
-	margin-top: 45vh;
+	font-size: 2.75rem;
+	margin-top: 40vh;
 	box-shadow: 5px 5px 10px gray;
 	border-radius: 10px;
-	padding: 2rem;
+	padding: 2.5rem;
+	text-align: center;
+
+	@media (max-width: 992px) {
+		margin-top: 35vh;
+		font-size: 2.25rem;
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
+
+	@media (max-width: 576px) {
+		margin-top: 35vh;
+		font-size: 1.75rem;
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
 `
 
 export default Index
