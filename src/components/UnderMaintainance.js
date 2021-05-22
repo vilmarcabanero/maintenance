@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const UnderDevelopment = () => {
+const Index = () => {
 	return (
 		<Container>
-			<Title>This website is under Maintainance.</Title>T
+			<Title>This website is under Maintainance.</Title>
 		</Container>
 	)
 }
@@ -25,4 +25,4 @@ const Title = styled.h1`
 	padding: 2rem;
 `
 
-export default UnderDevelopment
+export default Index

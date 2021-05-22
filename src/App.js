@@ -1,12 +1,12 @@
 import './App.css'
 import Particles from './components/Particles'
-import UnderDevelopment from './components/UnderDevelopment'
+import UnderMaintainance from './components/UnderMaintainance'
 
 function App() {
 	return (
 		<div>
 			<Particles />
-			<UnderDevelopment />
+			<UnderMaintainance />
 		</div>
 	)
 }
