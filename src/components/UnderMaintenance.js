@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const Index = () => {
 	return (
 		<Container>
-			<Title>This website is under Maintainance.</Title>
+			<Title>This website is under maintenance.</Title>
 		</Container>
 	)
 }
